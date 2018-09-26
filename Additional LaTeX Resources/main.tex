@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tgbonum}
+\usepackage{graphicx}
+\begin{document}
+\Huge Hello World!
+\textit{Hello World!}
+
+%to go to a new line
+%hit enter twice
+\noindent Hello World!\\
+%or "\\"
+Hi!
+
+%to fix indentions 
+\indent Hi!
+
+%to bold:
+\textbf{Hi!}
+
+%centering:
+\begin{center}
+Everything in here is centered!\\
+Hello World!
+\end{center}
+
+%to make list
+\begin{itemize}
+\item apples
+\item \textit{bananas}
+\item \textbf{orange}
+\end{itemize}
+
+%to make a fancy list:
+\begin{itemize}
+\item[\S] Hello
+\item[\S] World!
+\end{itemize}
+
+%reserved characters:
+\# \% \$ \^  \& \_ \{ \} \textbackslash{} 
+
+%changing the font:
+% \usepackage{tgbonum}
+%place above the beginning of the document
+
+\tiny Hi!
+\scriptsize Hi!
+\footnotesize Hi!
+\small Hi!
+\normalsize Hi!
+\large Hi!
+\Large Hi!
+\LARGE Hi!
+\huge Hi!
+\Huge Hi!
+
+
+%below is math mode!
+$this is math mode$\\
+%exponents:
+$x^2$
+$x^{xyz123}$\\
+
+%subscripts:
+$x_2$
+$x_{123}$
+
+%centering in math mode:
+$$x^2$$
+
+%Greek symbols:
+$\theta$
+$\Sigma$
+
+%sums and integrals
+\huge
+$\sum_{i = 1}^m$\\
+$$\int_{a}^{b} x^2 dx$$\\
+
+%fractions:
+$\frac{num}{denom}$
+
+%example from slide:
+$$ h_\theta(x) = \frac{1}{1 + \exp(-\theta^\top x)}$$
+
+%adding in pictures:
+%add package above
+% \usepackage{graphicx}
+\includegraphics[scale=0.5]{image}
+
+\end{document}
